@@ -1,0 +1,117 @@
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.movie {
+  --YT-red: #d91921;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+/* .movie__trailer {
+  width: 100%;
+} */
+
+.movie__trailer .trailer {
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid var(--YT-red);
+}
+
+.trailer-msg {
+  width: 100%;
+  padding: 3em;
+  margin: 4rem 0;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  border: 2px solid var(--YT-red);
+}
+
+.text-content {
+  text-align: left;
+}
+
+.movie__genre {
+  padding: 0.3em 0.8em;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin-right: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 250ms ease-in;
+  cursor: pointer;
+}
+
+.movie__genre:hover {
+  color: var(--YT-red);
+  border-color: var(--YT-red);
+}
+
+.movie__title {
+  margin: 2rem 0 0.5rem;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: var(--YT-red);
+}
+
+.movie__tagline {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.movie__release-date {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #e9e9e9;
+}
+
+.movie__desc {
+  max-width: 100ch;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.movie__website {
+  margin: 2rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.movie__website a {
+  color: var(--YT-red);
+}
+.movie__website a:hover {
+  color: #ff0008;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #fff;
+}

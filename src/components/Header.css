@@ -1,0 +1,33 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.8rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 500ms ease-in;
+  z-index: 2;
+}
+header.nav-bg-black {
+  background-color: #111;
+}
+.nav_logo img {
+  width: 80px;
+}
+
+.header__btn {
+  background-color: #d91921;
+  padding: 0.5em 1.3em;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: transform 100ms linear;
+}
+.header__btn:hover {
+  transform: scale(1.03);
+}
